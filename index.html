@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./front/icons/css/all.css">
+  <script src="./script.js"></script>
+
+  <title>Dashboard</title>
+</head>
+<body>
+  <div class="dashboard">
+    <h1 class="dashboard-title">Dashboard Plantinha</h1>
+    <div class="dashboard-item">
+      <h2 class="item-title">Temperatura do Ar</h2>
+      <div class="item-content">
+        <i class="fa-solid fa-temperature-three-quarters fa-2x"></i>
+        <span class="value temperatura"></span>
+      </div>
+    </div>
+    <div class="dashboard-item">
+      <h2 class="item-title">Umidade do Ar</h2>
+      <div class="item-content">
+        <i class="fa-solid fa-temperature-three-quarters fa-2x"></i>
+        <span class="value umidade"></span>
+      </div>
+    </div>
+    <div class="dashboard-item">
+      <h2 class="item-title">Umidade do Solo</h2>
+      <div class="item-content">
+        <i class="fa-solid fa-temperature-three-quarters fa-2x"></i>
+        <span class="value solo"></span>
+      </div>
+    </div>
+    <div class="dashboard-item">
+      <h2 class="item-title">Luminosidade</h2>
+      <div class="item-content">
+        <i class="fa-solid fa-lightbulb fa-2x"></i>
+        <span class="value luminosidade"></span>
+      </div>
+    </div>
+    <div class="dashboard-item">
+      <h2 class="item-title">Rega Automática</h2>
+      <div class="item-content">
+        <!-- Rounded switch -->
+        <label class="switch">
+          <input id="rega-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <div class="dashboard-item">
+      <h2 class="item-title">Luz Automática</h2>
+      <div class="item-content">
+        <!-- Rounded switch -->
+        <label class="switch">
+          <input id="luz-switch" type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+    <div class="dashboard-item ">
+      <h2 class="item-title">Notificações</h2>
+      <div class="item-content">
+        <div class="notifications"></div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
+
+
